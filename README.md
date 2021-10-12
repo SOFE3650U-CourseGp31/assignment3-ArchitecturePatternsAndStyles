@@ -1,7 +1,7 @@
 # assignment3-ArchitecturePatternsAndStyles
 
 ## Table of Contents
-[Background Info on the MVC Pattern](#Background%Info%on%the%MVC%Pattern)
+[Background Info on the MVC Pattern](#Background-Info-on-the-MVC-Pattern)
 
 
 ## Background Info on the MVC Pattern
