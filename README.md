@@ -8,7 +8,7 @@
     * [Question 1](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles/tree/master/Cash%20Register%20-%20Question%201)
     * [Question 2](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles/tree/master/Cash%20Register%20-%20Question%202)
     * [Question 3](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles/tree/master/Cash%20Register%20-%20Question%203)
-    * [Question 4](#q4)
+    * [Question 4](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles#exercises)
 
 ## Background Info on the MVC Pattern
 The MVC pattern has always been a misunderstood architectural pattern that is implemented in 2 basic approaches. Fundamentally the pattern leverages an interaction pattern as shown in Figure 1. The differences are primarily on how the update to the View is implemented in the 2 approaches and their implied dependencies
@@ -32,4 +32,4 @@ Going back to the Cash Register Requirements one can define the following signif
 
 3) Modify the original *CashRegister*, *Display* and *TicketPrinter* components from Exercise 1 so that an *Observer* pattern is used where the *Display* and *TicketPrinter* components are Observers to the *CashRegister* components and are notified when the current scanned product’s name and price have been updated. This 3rd implementation uses a Subject / Observer pattern to invert the dependency between the Model and View. [navigate to question 3...](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles/tree/master/Cash%20Register%20-%20Question%203)
 
-4) <a href="#q4">Comment on the advantages and disadvantages of the 3 approaches.</a>
+4) Comment on the advantages and disadvantages of the 3 approaches.
