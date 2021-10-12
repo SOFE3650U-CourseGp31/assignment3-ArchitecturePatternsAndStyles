@@ -14,3 +14,12 @@ The ideal dependency that one wants to achieve in the MVC pattern is from the Vi
 Going back to the Cash Register Requirements one can define the following significant components: *CashRegister, Display, Keyboard, TicketPrinter, Scanner,* and *ProductDB.*  The responsibilities and operators for each module are listed below:
 
 <p align="center"><img src="/md/CashRegisterRequirements.PNG" /></p>
+
+## Exercises (For each exercise you should create a separate folder in the GitHub) 
+1) In this first exercise implement a Cash Register Application using the above components that processes input from the *Keyboard* and/or *Scanner* (Controllers) and outputs the product information on the *Display* and *TicketPrinter* (Views) by interacting with the *CashRegister* (Model). This design should follow a standard interaction pattern where the Controllers depend on the *CashRegister* operators and the *CashRegister* depends on the View operators.  In this exercise I will be looking that *CashRegister* calls the operators in *Display* and *TicketPrinter*. [Question1](Cash%Register%-%Question%1)
+
+2) Create a View interface that the Display and TicketPrinter will inherent from that contains an operator called *displayProduct(Product).* Implement this operator in both *Display* and *TicketPrinter* and modify the *CashRegister* component to leverage this operator. This 2nd implementation uses Interfaces to invert the dependency between the Model and View. [Question2]()
+
+3) Modify the original *CashRegister*, *Display* and *TicketPrinter* components from Exercise 1 so that an *Observer* pattern is used where the *Display* and *TicketPrinter* components are Observers to the *CashRegister* components and are notified when the current scanned product’s name and price have been updated. This 3rd implementation uses a Subject / Observer pattern to invert the dependency between the Model and View. [Question3]()
+
+4) Comment on the advantages and disadvantages of the 3 approaches.
