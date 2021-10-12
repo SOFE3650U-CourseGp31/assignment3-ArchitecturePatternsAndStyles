@@ -35,7 +35,7 @@ Going back to the Cash Register Requirements one can define the following signif
 4) Comment on the advantages and disadvantages of the 3 approaches.
 
     | Approach | Advantages  | Disadvantages |
-    | :------: | ----------- | ------------- |
-    | 1 |             |               |
-    | 2 |             |               |
-    | 3 |             |               |
+    | :------: | :---------- | :------------ |
+    |    1     |             |               |
+    |    2     |             |               |
+    |    3     |             |               |
