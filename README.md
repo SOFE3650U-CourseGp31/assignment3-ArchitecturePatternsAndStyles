@@ -3,7 +3,9 @@
 ## Background Info on the MVC Pattern
 The MVC pattern has always been a misunderstood architectural pattern that is implemented in 2 basic approaches. Fundamentally the pattern leverages an interaction pattern as shown in Figure 1. The differences are primarily on how the update to the View is implemented in the 2 approaches and their implied dependencies
 
-![fig1](/md/MVCInteractionModel.html)
+<p align="center">
+    <img src="/md/MVCInteractionModel.PNG" />
+</p>
 
 In some examples the updates are direct calls to the View operators (Dependency from Model to View) and on other examples the Observer pattern is implemented creating a stronger dependency from the View to the Model. 
 
