@@ -13,4 +13,4 @@ The ideal dependency that one wants to achieve in the MVC pattern is from the Vi
 ## The Cash Register Application
 Going back to the Cash Register Requirements one can define the following significant components: *CashRegister, Display, Keyboard, TicketPrinter, Scanner,* and *ProductDB.*  The responsibilities and operators for each module are listed below:
 
-<p align="center"><img src="/md/CashRegisterRequirements.pdf" /></p>
+<p align="center"><img src="/md/CashRegisterRequirements.png" /></p>
