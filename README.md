@@ -2,7 +2,12 @@
 
 ## Table of Contents
 [Background Info on the MVC Pattern](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles#background-info-on-the-mvc-pattern)
-
+* [Dependencies in the MVC Pattern](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles#dependencies-in-the-mvc-pattern)
+[The Cash Register Application](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles#the-cash-register-application)
+[Exercises](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles#exercises-for-each-exercise-you-should-create-a-separate-folder-in-the-github)
+* [Question 1](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles/tree/master/Cash%20Register%20-%20Question%201)
+* [Question 2](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles/tree/master/Cash%20Register%20-%20Question%202)
+* [Question 3](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles/tree/master/Cash%20Register%20-%20Question%203)
 
 ## Background Info on the MVC Pattern
 The MVC pattern has always been a misunderstood architectural pattern that is implemented in 2 basic approaches. Fundamentally the pattern leverages an interaction pattern as shown in Figure 1. The differences are primarily on how the update to the View is implemented in the 2 approaches and their implied dependencies
@@ -19,7 +24,7 @@ Going back to the Cash Register Requirements one can define the following signif
 
 <p align="center"><img src="/md/CashRegisterRequirements.PNG" /></p>
 
-## Exercises (For each exercise you should create a separate folder in the GitHub) 
+## Exercises
 1) In this first exercise implement a Cash Register Application using the above components that processes input from the *Keyboard* and/or *Scanner* (Controllers) and outputs the product information on the *Display* and *TicketPrinter* (Views) by interacting with the *CashRegister* (Model). This design should follow a standard interaction pattern where the Controllers depend on the *CashRegister* operators and the *CashRegister* depends on the View operators.  In this exercise I will be looking that *CashRegister* calls the operators in *Display* and *TicketPrinter*. [navigate to question 1...](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles/tree/master/Cash%20Register%20-%20Question%201)
 
 2) Create a View interface that the Display and TicketPrinter will inherent from that contains an operator called *displayProduct(Product).* Implement this operator in both *Display* and *TicketPrinter* and modify the *CashRegister* component to leverage this operator. This 2nd implementation uses Interfaces to invert the dependency between the Model and View. [navigate to question 2...](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles/tree/master/Cash%20Register%20-%20Question%202)
