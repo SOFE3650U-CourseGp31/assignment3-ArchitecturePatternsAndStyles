@@ -1,13 +1,13 @@
 # assignment3-ArchitecturePatternsAndStyles
 
 ## Table of Contents
-[Background Info on the MVC Pattern](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles#background-info-on-the-mvc-pattern)
-* [Dependencies in the MVC Pattern](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles#dependencies-in-the-mvc-pattern)
-[The Cash Register Application](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles#the-cash-register-application)
-[Exercises](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles#exercises-for-each-exercise-you-should-create-a-separate-folder-in-the-github)
-* [Question 1](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles/tree/master/Cash%20Register%20-%20Question%201)
-* [Question 2](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles/tree/master/Cash%20Register%20-%20Question%202)
-* [Question 3](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles/tree/master/Cash%20Register%20-%20Question%203)
+1) [Background Info on the MVC Pattern](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles#background-info-on-the-mvc-pattern)
+    * [Dependencies in the MVC Pattern](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles#dependencies-in-the-mvc-pattern)
+2) [The Cash Register Application](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles#the-cash-register-application)
+3) [Exercises](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles#exercises-for-each-exercise-you-should-create-a-separate-folder-in-the-github)
+    * [Question 1](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles/tree/master/Cash%20Register%20-%20Question%201)
+    * [Question 2](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles/tree/master/Cash%20Register%20-%20Question%202)
+    * [Question 3](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles/tree/master/Cash%20Register%20-%20Question%203)
 
 ## Background Info on the MVC Pattern
 The MVC pattern has always been a misunderstood architectural pattern that is implemented in 2 basic approaches. Fundamentally the pattern leverages an interaction pattern as shown in Figure 1. The differences are primarily on how the update to the View is implemented in the 2 approaches and their implied dependencies
