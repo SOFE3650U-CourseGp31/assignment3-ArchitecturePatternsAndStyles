@@ -1,7 +1,7 @@
 # assignment3-ArchitecturePatternsAndStyles
 
 ## Table of Contents
-[Background Info on the MVC Pattern](#Background-Info-on-the-MVC-Pattern)
+[Background Info on the MVC Pattern](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles#background-info-on-the-mvc-pattern)
 
 
 ## Background Info on the MVC Pattern
