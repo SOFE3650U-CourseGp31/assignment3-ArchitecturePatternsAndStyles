@@ -8,7 +8,7 @@
     * [Question 1](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles/tree/master/Cash%20Register%20-%20Question%201)
     * [Question 2](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles/tree/master/Cash%20Register%20-%20Question%202)
     * [Question 3](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles/tree/master/Cash%20Register%20-%20Question%203)
-    * [Question 4](https://github.com/SOFE3650U-CourseGp31/assignment3-ArchitecturePatternsAndStyles#exercises#q4)
+    * [Question 4](#q4)
 
 ## Background Info on the MVC Pattern
 The MVC pattern has always been a misunderstood architectural pattern that is implemented in 2 basic approaches. Fundamentally the pattern leverages an interaction pattern as shown in Figure 1. The differences are primarily on how the update to the View is implemented in the 2 approaches and their implied dependencies
