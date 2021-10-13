@@ -34,8 +34,64 @@ Going back to the Cash Register Requirements one can define the following signif
 
 4) Comment on the advantages and disadvantages of the 3 approaches.
 
-    | Approach | Advantages  | Disadvantages |
-    | :------: | :---------- | :------------ |
-    |    1     |             |               |
-    |    2     |             |               |
-    |    3     |             |               |
+<table>
+<tbody>
+<tr style="font-weight: bold;">
+    <td>Approaches</td>
+    <td>Advantages</td>
+    <td>Disadvantages</td>
+</tr>
+
+<tr valign="top">
+    <td align="center">1</td>
+    <!-- advantages -->
+    <td>
+        <ul>
+            <li>Views and controllers can easily be added/removed without disturbing the model</li>
+                <ul>
+                    <li>Interface components are decoupled from application-domain components</li>
+                    <li>Easy to change and maintain</li>
+                </ul>
+            <li>Look and feel of the program can be changed by replacing views and controllers</li>
+        </ul>
+    </td>
+    <!-- disadvantages -->
+    <td rowspan="3">
+        <ul>
+            <li>User interface components are highly dependent on model components</li>
+            <li>Cost of Frequent Updates</li>
+                <ul>
+                    <li>may slow data display and degrade performance of user interface</li>
+                </ul>
+            <li>Views and controllers are often hard to separate</li>
+        </ul>
+    </td>
+</tr>
+<tr>
+    <td align="center">2</td>
+    <!-- advantages -->
+    <td>
+        <ul>
+            <li>Inheretance</li>
+                        <ul>
+                            <li>View interface will inherent 'displayProduct(product)' operator which is leveraged by the CashRegister component</li>
+                        </ul>
+        </ul>
+    </td>
+</tr>
+<tr>
+    <td align="center">3</td>
+    <!-- advantages -->
+    <td>
+        <ul>
+            <li>Observer pattern</li>
+                <ul>
+                    <li>defines a one-to-many dependency between objects</li>
+                    <li>view components are notified when current scanned product's name and price have been updated</li>
+                    <li>stronger dependency from the View (TicketPrinter & Display) to the Model (CashRegister)</li>
+                </ul>
+        </ul>
+    </td>
+</tr>
+</tbody>
+</table>
