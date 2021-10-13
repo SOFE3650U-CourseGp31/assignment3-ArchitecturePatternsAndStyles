@@ -44,7 +44,8 @@ Going back to the Cash Register Requirements one can define the following signif
 
 <tr valign="top">
     <td align="center">1</td>
-    <td id="advantages">
+    <!-- advantages -->
+    <td>
         <ul>
             <li>Views and controllers can easily be added/removed without disturbing the model</li>
                 <ul>
@@ -52,7 +53,8 @@ Going back to the Cash Register Requirements one can define the following signif
                 </ul>
         </ul>
     </td>
-    <td id="disadvantages">
+    <!-- disadvantages -->
+    <td colspan="3">
         <ul>
             <li>User interface components are highly dependent on model components</li>
             <li>Cost of Frequent Updates</li>
@@ -65,6 +67,7 @@ Going back to the Cash Register Requirements one can define the following signif
 </tr>
 <tr>
     <td align="center">2</td>
+    <!-- advantages -->
     <td>
         <ul>
             <li>Inheretance</li>
@@ -76,6 +79,7 @@ Going back to the Cash Register Requirements one can define the following signif
 </tr>
 <tr>
     <td align="center">3</td>
+    <!-- advantages -->
     <td>
         <ul>
             <li>Observer pattern</li>
