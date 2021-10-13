@@ -54,7 +54,7 @@ Going back to the Cash Register Requirements one can define the following signif
         </ul>
     </td>
     <!-- disadvantages -->
-    <td colspan="3">
+    <td rowspan="3">
         <ul>
             <li>User interface components are highly dependent on model components</li>
             <li>Cost of Frequent Updates</li>
