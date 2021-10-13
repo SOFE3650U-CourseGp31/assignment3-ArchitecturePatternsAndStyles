@@ -34,8 +34,45 @@ Going back to the Cash Register Requirements one can define the following signif
 
 4) Comment on the advantages and disadvantages of the 3 approaches.
 
-    | Approach | Advantages  | Disadvantages |
-    | :------: | :---------- | :------------ |
-    |    1     |             |               |
-    |    2     |             |               |
-    |    3     |             |               |
+<table>
+<tbody>
+<tr>
+<td>Approach</td>
+<td>Advantages</td>
+<td>Disadvantages</td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td id="advantages1">
+    <ul>
+        <li>Straight forward</li>
+            <ul><li>Static Structure: uses Layered Style</li></ul>
+        <li>Views and controllers can easily be added/removed without disturbing the model</li>
+    </ul>
+</td>
+<td id="disadvantages1">&nbsp;</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td id="advantages2">&nbsp;</td>
+<td id="disadvantages2">&nbsp;</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td id="advantages3">
+    <ul>
+        <li>Observer pattern is used</li>
+        <ul>
+            <li>defines a one-to-many dependency between objects</li>
+            <li>view components are notified when current scanned product's name and price have been updated</li>
+        </ul>
+    </ul>
+</td>
+<td id="disadvantages3">
+    <ul>
+        <li>Complexity</li>
+    </ul>
+</td>
+</tr>
+</tbody>
+</table>
