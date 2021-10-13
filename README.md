@@ -36,12 +36,12 @@ Going back to the Cash Register Requirements one can define the following signif
 
 <table>
 <tbody>
-<tr>
+<tr style="font-weight: bold;">
     <td>Advantages</td>
     <td>Disadvantages</td>
 </tr>
 
-<tr>
+<tr valign="top">
     <td id="advantages">
         <ul>
             <li>Can be implemented using Static Structure or Dynamic Structure</li>
