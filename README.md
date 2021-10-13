@@ -37,42 +37,35 @@ Going back to the Cash Register Requirements one can define the following signif
 <table>
 <tbody>
 <tr>
-<td>Approach</td>
-<td>Advantages</td>
-<td>Disadvantages</td>
+    <td>Advantages</td>
+    <td>Disadvantages</td>
 </tr>
+
 <tr>
-<td align="center">1</td>
-<td id="advantages1">
-    <ul>
-        <li>Straight forward</li>
-            <ul><li>Static Structure: uses Layered Style</li></ul>
-        <li>Views and controllers can easily be added/removed without disturbing the model</li>
-    </ul>
-</td>
-<td id="disadvantages1">&nbsp;</td>
-</tr>
-<tr>
-<td align="center">2</td>
-<td id="advantages2">&nbsp;</td>
-<td id="disadvantages2">&nbsp;</td>
-</tr>
-<tr>
-<td align="center">3</td>
-<td id="advantages3">
-    <ul>
-        <li>Observer pattern is used</li>
+    <td id="advantages">
         <ul>
-            <li>defines a one-to-many dependency between objects</li>
-            <li>view components are notified when current scanned product's name and price have been updated</li>
+            <li>Can be implemented using Static Structure or Dynamic Structure</li>
+            <li>Views and controllers can easily be added/removed without disturbing the model</li>
+            <li>Inheretance</li>
+            <ul>
+                <li>View interface will be updated when 'displayProduct(product)' operator is called by the CashRegister.</li>
+            </ul>
+            <li>Observer pattern is used</li>
+            <ul>
+                <li>defines a one-to-many dependency between objects</li>
+                <li>view components are notified when current scanned product's name and price have been updated</li>
+                <li>Stronger dependency fromt the View (TicketPrinter & Display) to the Model (CashRegister)</li>
+            </ul>
         </ul>
-    </ul>
-</td>
-<td id="disadvantages3">
-    <ul>
-        <li>Complexity</li>
-    </ul>
-</td>
+    </td>
+    <td id="disadvantages">
+        <ul>
+            <li>Cost of Frequent Updates</li>
+                <ul>
+                    <li>may slow data display and degrade performance of user interface</li>
+                </ul>
+        </ul>
+    </td>
 </tr>
 </tbody>
 </table>
