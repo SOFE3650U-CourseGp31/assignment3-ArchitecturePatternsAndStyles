@@ -52,7 +52,10 @@ Going back to the Cash Register Requirements one can define the following signif
                     <li>Interface components are decoupled from application-domain components</li>
                     <li>Easy to change and maintain</li>
                 </ul>
-            <li>Look and feel of the program can be changed by replacing views and controllers</li>
+            <li>Ability to provide multiple views</li>
+                <ul>
+                    <li>Look and feel of the program can be changed by replacing views and controllers</li>
+                </ul>
         </ul>
     </td>
     <!-- disadvantages -->
@@ -64,6 +67,7 @@ Going back to the Cash Register Requirements one can define the following signif
                     <li>may slow data display and degrade performance of user interface</li>
                 </ul>
             <li>Views and controllers are often hard to separate</li>
+            <li>Highly complex</li>
         </ul>
     </td>
 </tr>
