@@ -44,26 +44,30 @@ Going back to the Cash Register Requirements one can define the following signif
 <tr valign="top">
     <td id="advantages">
         <ul>
-            <li>Can be implemented using Static Structure or Dynamic Structure</li>
             <li>Views and controllers can easily be added/removed without disturbing the model</li>
+                <ul>
+                    <li>Easy to change and maintain</li>
+                </ul>
             <li>Inheretance</li>
-            <ul>
-                <li>View interface will be updated when 'displayProduct(product)' operator is called by the CashRegister.</li>
-            </ul>
+                <ul>
+                    <li>View interface will be updated when 'displayProduct(product)' operator is called by the CashRegister.</li>
+                </ul>
             <li>Observer pattern is used</li>
-            <ul>
-                <li>defines a one-to-many dependency between objects</li>
-                <li>view components are notified when current scanned product's name and price have been updated</li>
-                <li>Stronger dependency fromt the View (TicketPrinter & Display) to the Model (CashRegister)</li>
-            </ul>
+                <ul>
+                    <li>defines a one-to-many dependency between objects</li>
+                    <li>view components are notified when current scanned product's name and price have been updated</li>
+                    <li>Stronger dependency fromt the View (TicketPrinter & Display) to the Model (CashRegister)</li>
+                </ul>
         </ul>
     </td>
     <td id="disadvantages">
         <ul>
+            <li>User interface components are highly dependent on model components</li>
             <li>Cost of Frequent Updates</li>
                 <ul>
                     <li>may slow data display and degrade performance of user interface</li>
                 </ul>
+            <li>Views and controllers are often hard to separate</li>
         </ul>
     </td>
 </tr>
