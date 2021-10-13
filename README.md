@@ -49,8 +49,10 @@ Going back to the Cash Register Requirements one can define the following signif
         <ul>
             <li>Views and controllers can easily be added/removed without disturbing the model</li>
                 <ul>
+                    <li>Interface components are decoupled from application-domain components</li>
                     <li>Easy to change and maintain</li>
                 </ul>
+            <li>Look and feel of the program can be changed by replacing views and controllers</li>
         </ul>
     </td>
     <!-- disadvantages -->
